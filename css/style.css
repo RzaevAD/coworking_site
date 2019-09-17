@@ -1,0 +1,47 @@
+body
+{
+	font-family: 'Gotham Pro';
+	color: #221f1f;
+	margin: 0;
+}
+
+.header
+{
+	background-color: #27273e;
+}
+
+.container
+{
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+.clearfix:after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.contacts
+{
+	float: right;
+}
+
+.contacts__phone
+{
+	font-weight: bold;
+	font-size: 21px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
+.contacts__shedule
+{
+	font-weight: bold;
+	font-size: 14px;
+	color: #c02169;
+	display: block;
+	text-align: right;
+}
